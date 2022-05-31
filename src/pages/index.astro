@@ -3,9 +3,10 @@ import Base from '../layout/Base.astro'
 const { title } = Astro.props
 ---
 
-<Base title="Hello!"> <!-- "title" is an Astro property "prop" -->
+<Base {title="Hello!"}> <!-- "title" is an Astro property "prop" -->
 	<div class="wrap">
-	<h1>{title}</h1>
+	<h1>{title} 12345!</h1>
 	<p>Here's a paragraph</p>
+	<p>Here's another one!</p>
 </div>
 </Base>
