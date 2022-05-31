@@ -1,0 +1,11 @@
+---
+import Base from '../layout/Base.astro'
+const { title } = Astro.props
+---
+
+<Base title="Hello!"> <!-- "title" is an Astro property "prop" -->
+	<div class="wrap">
+	<h1>{title}</h1>
+	<p>Here's a paragraph</p>
+</div>
+</Base>
